@@ -10,12 +10,12 @@ pipeline {
         }
         stage('Test') { 
             steps {
-                // 
+                echo 'running build automation test'
             }
         }
         stage('Deploy') { 
             steps {
-                // 
+                echo 'running build automation deploy'
             }
         }
     }
